@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1478362511">
   <File Type="ROUTE-STATUS-PB" Name="dual_gen_route_status.pb"/>
+  <File Type="PWROPT-DRC" Name="dual_gen_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="dual_gen_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="dual_gen_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="dual_gen_power_routed.rpx"/>
   <File Type="PA-TCL" Name="dual_gen.tcl"/>
   <File Type="OPT-DCP" Name="dual_gen_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="dual_gen_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="dual_gen_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="dual_gen.vdi"/>
-  <File Type="PWROPT-DRC" Name="dual_gen_drc_pwropted.rpt"/>
   <File Type="OPT-DRC" Name="dual_gen_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="dual_gen_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="dual_gen.hwdef"/>
@@ -30,12 +31,13 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="dual_gen_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="dual_gen_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="dual_gen_drc_routed.pb"/>
+  <File Type="BG-DRC" Name="dual_gen.drc"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="dual_gen_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="dual_gen.bgn"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="dual_gen_methodology_drc_routed.pb"/>
   <File Type="BG-BIT" Name="dual_gen.bit"/>
   <File Type="ROUTE-PWR" Name="dual_gen_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="dual_gen_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="dual_gen_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="dual_gen_route_status.rpt"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="dual_gen_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="dual_gen_timing_summary_routed.pb"/>
@@ -54,8 +56,6 @@
   <File Type="BITSTR-BMM" Name="dual_gen_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="dual_gen.mmi"/>
   <File Type="BITSTR-SYSDEF" Name="dual_gen.sysdef"/>
-  <File Type="BG-BGN" Name="dual_gen.bgn"/>
-  <File Type="BG-DRC" Name="dual_gen.drc"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>

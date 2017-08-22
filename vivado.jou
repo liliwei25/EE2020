@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Aug 22 17:12:31 2017
+# Process ID: 8196
+# Current directory: C:/Users/liliw/Desktop/EE2020
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14572 C:\Users\liliw\Desktop\EE2020\ee2020_with_vga.xpr
+# Log file: C:/Users/liliw/Desktop/EE2020/vivado.log
+# Journal file: C:/Users/liliw/Desktop/EE2020\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/liliw/Desktop/EE2020/ee2020_with_vga.xpr

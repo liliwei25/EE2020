@@ -1,0 +1,95 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+Process ID: 8196
+
+Current time: 	8/22/17 5:13:03 PM SGT
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Vivado/Vivado/2016.4/tps/win64/jre
+
+User name: 	liliw
+User home directory: C:/Users/liliw
+User working directory: C:/Users/liliw/Desktop/EE2020
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI base root directory: D:/Vivado/Vivado
+RDI data directory: D:/Vivado/Vivado/2016.4/data
+RDI bin directory: D:/Vivado/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/liliw/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/liliw/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	165 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 384 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aK:r (cd:JFrame): Older Project Version: addNotify
+// [GUI Memory]: 51 MB (+51264kb) [00:00:08]
+// [Engine Memory]: 372 MB (+238979kb) [00:00:08]
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 384 MB. GUI used memory: 25 MB. Current time: 8/22/17 5:13:05 PM SGT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aK:r)
+// Opening Vivado Project: C:\Users\liliw\Desktop\EE2020\ee2020_with_vga.xpr. Version: Vivado v2016.2 
+// bt:g (cd:JFrame):  Open Project : addNotify
+dismissDialog("Older Project Version"); // aK:r (cd:JFrame)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/liliw/Desktop/EE2020/ee2020_with_vga.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 414 MB (+23585kb) [00:00:23]
+// Tcl Message: open_project C:/Users/liliw/Desktop/EE2020/ee2020_with_vga.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/liliw/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-9608-Liwei/PrjAr/_X_' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'ee2020_with_vga.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 460 MB (+26741kb) [00:00:26]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 485 MB. GUI used memory: 32 MB. Current time: 8/22/17 5:13:22 PM SGT
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 697.258 ; gain = 101.910 
+// Project name: ee2020_with_vga; location: C:/Users/liliw/Desktop/EE2020; part: xc7a35tcpg236-1
+// [Engine Memory]: 492 MB (+9536kb) [00:00:30]
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 57 MB (+3368kb) [00:00:31]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// PAPropertyPanels.initPanels (dual_gen.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// [GUI Memory]: 63 MB (+3512kb) [00:00:49]
+// [GUI Memory]: 67 MB (+1033kb) [00:00:50]
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v), gen1 - my_DAC (function_gen.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v), gen1 - my_DAC (function_gen.v), wave2 - triangle_wave_gen (tirangleLUT.v)]", 4, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v), gen1 - my_DAC (function_gen.v)]", 2); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v), vga - vga (vga_test.v)]", 4, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dual_gen (dual_gen.v), vga - vga (vga_test.v)]", 4, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Elapsed time: 85 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // y:i (D:JPanel, cd:JFrame)
