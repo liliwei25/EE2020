@@ -1,0 +1,109 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Nov 06 00:17:18 2016
+| Host         : Liwei running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file dual_gen_control_sets_placed.rpt
+| Design       : dual_gen
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    56 |
+| Unused register locations in slices containing registers |   208 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             442 |          190 |
+| No           | No                    | Yes                    |              21 |           18 |
+| No           | Yes                   | No                     |             110 |           31 |
+| Yes          | No                    | No                     |             111 |           38 |
+| Yes          | No                    | Yes                    |             115 |           50 |
+| Yes          | Yes                   | No                     |             113 |           35 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------+--------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+|    Clock Signal    |                      Enable Signal                     |                    Set/Reset Signal                    | Slice Load Count | Bel Load Count |
++--------------------+--------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+|  n_0_2928_BUFG     |                                                        |                                                        |                1 |              1 |
+|  HALF_CLOCK        |                                                        | mymouse/FSM_sequential_state_reg[0]_0                  |                1 |              1 |
+|  n_1_2841_BUFG     |                                                        |                                                        |                1 |              1 |
+|  gen1/freqClock    |                                                        |                                                        |                1 |              2 |
+| ~freqClockA_BUFG   |                                                        |                                                        |                2 |              2 |
+|  JA_OBUF_BUFG[3]   |                                                        |                                                        |                1 |              2 |
+| ~freqClockB_BUFG   |                                                        |                                                        |                2 |              2 |
+|  CLOCK_IBUF_BUFG   | keyboard/err_reg                                       | mymouse/Inst_Ps2Interface/load_tx_data_i_1_n_2         |                2 |              4 |
+|  JA_OBUF_BUFG[3]   | MY_BASIC_DAC/shiftCounter[3]_i_2_n_2                   | MY_BASIC_DAC/shiftCounter[3]_i_1_n_2                   |                2 |              4 |
+|  CLOCK_IBUF_BUFG   |                                                        | mymouse/Inst_Ps2Interface/clk_inter0                   |                1 |              4 |
+|  CLOCK_IBUF_BUFG   |                                                        | mymouse/Inst_Ps2Interface/data_inter0                  |                1 |              4 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/shift_frame                  | mymouse/Inst_Ps2Interface/reset_bit_count              |                1 |              4 |
+|  CLOCK_IBUF_BUFG   | keyboard/COUNT                                         | keyboard/COUNT[3]_i_1__0_n_2                           |                2 |              4 |
+|  JA_OBUF_BUFG[3]   | MY_BASIC_DAC/temp2                                     | MY_BASIC_DAC/shiftCounter[3]_i_1_n_2                   |                2 |              5 |
+|  gen1/DEBOUNCE     |                                                        |                                                        |                4 |              6 |
+|  gen2/DEBOUNCE     |                                                        |                                                        |                5 |              6 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/right_down_reg               | mymouse/FSM_sequential_state_reg[0]_0                  |                3 |              7 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/delay_63clk_count[6]_i_2_n_2 | mymouse/Inst_Ps2Interface/delay_63clk_count[6]_i_1_n_2 |                2 |              7 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/E[0]                         | mymouse/FSM_sequential_state_reg[0]_0                  |                2 |              8 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/x_inc_reg[0][0]              | mymouse/FSM_sequential_state_reg[0]_0                  |                3 |              8 |
+|  CLOCK_IBUF_BUFG   | mymouse/tx_data[7]_i_1_n_2                             |                                                        |                3 |              8 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/load_rx_data                 |                                                        |                2 |              8 |
+|  CLOCK_IBUF_BUFG   |                                                        | keyboard/DOWNCOUNTER[7]_i_1_n_2                        |                2 |              8 |
+|  CLOCK_IBUF_BUFG   |                                                        | keyboard/CODEWORD[7]_i_1_n_2                           |                2 |              8 |
+|  CLOCK_IBUF_BUFG   | vga/vga_sync_unit/h_count_reg[9]_i_1_n_2               | mymouse/FSM_sequential_state_reg[0]_0                  |                4 |             10 |
+|  CLOCK_IBUF_BUFG   | vga/vga_sync_unit/v_count_reg0                         | mymouse/FSM_sequential_state_reg[0]_0                  |                3 |             10 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/frame[10]_i_1_n_2            |                                                        |                2 |             11 |
+|  CLOCK_IBUF_BUFG   | mymouse/y_new_reg_n_2                                  |                                                        |                4 |             11 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/delay_20us_count[10]_i_2_n_2 | mymouse/Inst_Ps2Interface/delay_20us_count[10]_i_1_n_2 |                3 |             11 |
+|  CLOCK_IBUF_BUFG   | keyboard/read4_out                                     |                                                        |                2 |             11 |
+|  gen1/freqClock    | sel                                                    |                                                        |                3 |             12 |
+|  CLOCK_IBUF_BUFG   |                                                        | gen1/clear                                             |                3 |             12 |
+|  CLOCK_IBUF_BUFG   | mymouse/x_new_reg_n_2                                  |                                                        |                3 |             12 |
+|  CLOCK_IBUF_BUFG   | gen1/duty[11]_i_1_n_2                                  | mymouse/FSM_sequential_state_reg[0]_0                  |                2 |             12 |
+|  CLOCK_IBUF_BUFG   | gen2/duty[11]_i_1__0_n_2                               | mymouse/FSM_sequential_state_reg[0]_0                  |                3 |             12 |
+|  CLOCK_IBUF_BUFG   | keyboard/valX                                          |                                                        |                7 |             12 |
+|  CLOCK_IBUF_BUFG   | keyboard/keyY[11]_i_2_n_2                              | keyboard/keyY[11]_i_1_n_2                              |                5 |             12 |
+|  CLOCK_IBUF_BUFG   | keyboard/keyX[11]_i_2_n_2                              | keyboard/keyX[11]_i_1_n_2                              |                4 |             12 |
+|  CLOCK_IBUF_BUFG   | keyboard/TRIGGER                                       | keyboard/count_reading[0]_i_1_n_2                      |                3 |             12 |
+|  n_0_2928_BUFG     | gen2/offset                                            | mymouse/FSM_sequential_state_reg[0]_0                  |                6 |             12 |
+|  n_0_2928_BUFG     | gen2/switchAmp                                         | mymouse/FSM_sequential_state_reg[0]_0                  |                7 |             12 |
+|  n_0_2928_BUFG     | gen2/switchFreq                                        | mymouse/FSM_sequential_state_reg[0]_0                  |                4 |             12 |
+|  CLOCK_IBUF_BUFG   |                                                        | gen2/clear                                             |                3 |             12 |
+|  n_1_2841_BUFG     | gen1/offset                                            | mymouse/FSM_sequential_state_reg[0]_0                  |                6 |             12 |
+|  n_1_2841_BUFG     | gen1/switchAmp                                         | mymouse/FSM_sequential_state_reg[0]_0                  |                6 |             12 |
+|  n_1_2841_BUFG     | gen1/switchFreq                                        | mymouse/FSM_sequential_state_reg[0]_0                  |                6 |             12 |
+|  CLOCK_IBUF_BUFG   | mymouse/Inst_Ps2Interface/delay_100us_count[0]_i_2_n_2 | mymouse/Inst_Ps2Interface/delay_100us_count[0]_i_1_n_2 |                4 |             14 |
+|  CLOCK_IBUF_BUFG   |                                                        | mymouse/reset_timeout_cnt_reg_n_2                      |                6 |             24 |
+|  CLOCK_IBUF_BUFG   |                                                        | mymouse/reset_periodic_check_cnt_reg_n_2               |                6 |             26 |
+|  JA_OBUF_BUFG[3]   | MY_BASIC_DAC/temp2                                     |                                                        |               13 |             28 |
+|  CLOCK_IBUF_BUFG   |                                                        | mymouse/FSM_sequential_state_reg[0]_0                  |               24 |             32 |
+|  freqClockA_BUFG   |                                                        |                                                        |               19 |             54 |
+|  freqClockB_BUFG   |                                                        |                                                        |               19 |             54 |
+| ~CHANNEL_IBUF      |                                                        |                                                        |               38 |             67 |
+|  CHANNEL_IBUF_BUFG |                                                        |                                                        |               33 |             67 |
+|  CLOCK_IBUF_BUFG   |                                                        |                                                        |               64 |            178 |
++--------------------+--------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+
+
